@@ -1,0 +1,34 @@
+03-17 17:02:44 [info] [NapCat] [Core] NapCat.Core Version: 4.7.5
+03-17 17:02:44 [info] [NapCat] [WebUi] WebUi Local Panel Url: http://127.0.0.1:6099/webui?token=napcat
+03-17 17:02:44 [info] 等待网络连接...
+03-17 17:02:45 [info] 网络已连接
+03-17 17:02:45 [error] 快速登录失败，未找到该 QQ 历史登录记录，将使用二维码登录方式
+03-17 17:02:46 [warn] 请扫描下面的二维码，然后在手Q上授权登录：
+03-17 17:02:46 [warn] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄███▀▄█▀███ ▀▀ ▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀█ ▄ █▀ ▀  ▄▀▀▄██ █   █ █
+█ █▄▄▄█ █▄ ▄▄▀▀█▄██▄▀▀█ █▄█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄▀▄█ █ ▀▄█▄█▄█ █▄▄▄▄▄▄▄█
+█ ▄▄▄█▀▄█ ▀████▀▄█▄▄█▀██▄█▄▀█▄▄ ▀ █
+██ ▄█▀▄▄▀▄██▀▀▀▄▀███▀███▄ █ ▀▄█▄ ▄█
+██ ▀▄  ▄▀█ ▀ █▄█ ▀██▄▄▀▄▄ ▄█▄▄ ▀▀██
+█▄▀▀█  ▄▀ ▀██ ▄██ █▀▄▄ ▄█▀▀  ▄█ ███
+█▄███▄▀▄ █▄ ▄▀  ▀▀█▄█ █▄▄       ▄ █
+███▀█▀ ▄▄▄ ▀▄ █▀▄▀ ▀███ ▀▀  ██ █▄▀█
+█  █ █▀▄▀▄ ▀▄ █▀▄ █▄▀▀▀▀  ▄▀▄█▀▄▀▀█
+██▀▀▄  ▄▀▀ ▀▄▄▀ ▀ ▄█████ ▄▄▀▀▄▀▄ ▄█
+█▄█▄▄█▄▄▄ ▄▀▀ ▄█ ▀▀█ █▄   ▄▄▄ ▄██▄█
+█ ▄▄▄▄▄ ██▀▄ ██▄█▄▄    ▀  █▄█ ▀▀███
+█ █   █ █▀▀ ██  ▄▄ ▄  █▄  ▄▄▄▄█  ▄█
+█ █▄▄▄█ █ ▀█▀ █▀▄▀ ██▀▄█▄▀▄ ▄▀█▄▄▀█
+█▄▄▄▄▄▄▄█▄▄██▄███▄█▄██▄███▄███▄▄███
+
+二维码解码URL: https://txz.qq.com/p?k=PmNsoPIjWQWPhOklaYMLS8rHgPFNDZcl&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+03-17 17:02:46 [warn] 二维码已保存到 D:\githubRes\gfQQBot\napcat\cache\qrcode.png
+03-17 17:02:59 [debug] 本账号数据/缓存目录： D:\QQdata\Tencent Files\NapCat\data
+03-17 17:02:59 [debug] [Core] [Config] 配置文件D:\githubRes\gfQQBot\napcat\config\napcat.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1}
+03-17 17:02:59 [warn] [Core] [Packet] wsPacketClient 未配置服务器地址
+03-17 17:02:59 [info] [Core] [Packet] 自动选择 NativePacketClient 作为后端

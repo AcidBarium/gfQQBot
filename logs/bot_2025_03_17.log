@@ -1,0 +1,126 @@
+INFO     - [MainThread|MainProcess] - Loger - client.py:__init__:33 | 
+--Configuration--
+[BotQQ]: 3666289634
+[Wsuri]: ws://localhost:3001
+[Token]: 
+--03/17---17:02--
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_new_conn:1022 | Starting new HTTPS connection (1): pypi.org:443
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_make_request:475 | https://pypi.org:443 "GET /pypi/ncatbot/json HTTP/1.1" 200 12511
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+INFO     - [MainThread|MainProcess] - Loger - client.py:ncatbot_quick_start:203 | napcat 服务器离线
+INFO     - [MainThread|MainProcess] - Loger - tp_helper.py:download_napcat_windows:70 | 未找到 napcat ，是否要自动安装？
+DEBUG    - [MainThread|MainProcess] - Loger - tp_helper.py:get_proxy_url:33 | 正在尝试连接 GitHub 代理...
+DEBUG    - [MainThread|MainProcess] - Loger - tp_helper.py:get_proxy_url:36 | 正在尝试连接 https://ghfast.top/
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_new_conn:1022 | Starting new HTTPS connection (1): ghfast.top:443
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_make_request:475 | https://ghfast.top:443 "GET / HTTP/1.1" 200 None
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_new_conn:1022 | Starting new HTTPS connection (1): ghfast.top:443
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_make_request:475 | https://ghfast.top:443 "GET /https://raw.githubusercontent.com/NapNeko/NapCatQQ/main/package.json HTTP/1.1" 200 877
+DEBUG    - [MainThread|MainProcess] - Loger - tp_helper.py:get_version:54 | 获取最新版本信息成功, 版本号: 4.7.5
+DEBUG    - [MainThread|MainProcess] - Loger - tp_helper.py:get_proxy_url:33 | 正在尝试连接 GitHub 代理...
+DEBUG    - [MainThread|MainProcess] - Loger - tp_helper.py:get_proxy_url:36 | 正在尝试连接 https://ghfast.top/
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_new_conn:1022 | Starting new HTTPS connection (1): ghfast.top:443
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_make_request:475 | https://ghfast.top:443 "GET / HTTP/1.1" 200 None
+INFO     - [MainThread|MainProcess] - Loger - tp_helper.py:download_napcat_windows:85 | 下载链接为 https://ghfast.top/https://github.com/NapNeko/NapCatQQ/releases/download/v4.7.5/NapCat.Shell.zip...
+INFO     - [MainThread|MainProcess] - Loger - tp_helper.py:download_napcat_windows:86 | 正在下载 napcat 客户端, 请稍等...
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_new_conn:1022 | Starting new HTTPS connection (1): ghfast.top:443
+DEBUG    - [MainThread|MainProcess] - urllib3.connectionpool - connectionpool.py:_make_request:475 | https://ghfast.top:443 "GET /https://github.com/NapNeko/NapCatQQ/releases/download/v4.7.5/NapCat.Shell.zip HTTP/1.1" 200 29848838
+INFO     - [MainThread|MainProcess] - Loger - io.py:unzip_file:87 | 解压 napcat.zip 成功
+ERROR    - [MainThread|MainProcess] - Loger - client.py:read_webui_config:294 | 无法读取 WebUI 配置, 将使用默认配置
+INFO     - [MainThread|MainProcess] - Loger - launcher.py:start_napcat:79 | 正在启动 napcat 服务器
+INFO     - [MainThread|MainProcess] - Loger - launcher.py:get_launcher_name:41 | 当前操作系统为: Windows 11
+INFO     - [MainThread|MainProcess] - Loger - launcher.py:start_napcat:90 | 正在启动QQ，启动器路径: D:\githubRes\gfQQBot\napcat\launcher.bat
+INFO     - [MainThread|MainProcess] - Loger - client.py:connect_napcat:326 | 正在连接 napcat websocket 服务器...
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+INFO     - [MainThread|MainProcess] - Loger - client.py:info:312 | 连接 napcat websocket 服务器超时, 请检查以下内容:
+INFO     - [MainThread|MainProcess] - Loger - client.py:info_windows:304 | 1. 请允许终端修改计算机, 并在弹出的另一个终端扫码登录
+INFO     - [MainThread|MainProcess] - Loger - client.py:info_windows:305 | 2. 确认 QQ 号 3666289634 是否正确
+INFO     - [MainThread|MainProcess] - Loger - client.py:info_windows:306 | 3. websocket url 是否正确: ws://localhost:3001
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:__init__:256 | = connection is CONNECTING
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:114 | > GET / HTTP/1.1
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Host: localhost:3001
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Key: 3H3T8yEsSc0lHhCHZX8b8w==
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Version: 13
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Content-Type: application/json
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > User-Agent: Python/3.12 websockets/10.4
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:147 | < HTTP/1.1 101 Switching Protocols
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Sec-WebSocket-Accept: 1j8mfut5NEOcG8Jm07V/8bvQyWw=
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_open:357 | = connection is OPEN
+INFO     - [MainThread|MainProcess] - Loger - wsroute.py:check_websocket:30 | WebSocket ws://localhost:3001 可用.
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_close_frame:1232 | = connection is CLOSING
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_frame_sync:1183 | > CLOSE 1000 (OK) [2 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < TEXT '{"time":1742202181,"self_id":3666289634,"post_t...","sub_type":"connect"}' [116 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < CLOSE 1000 (OK) [2 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_lost:1514 | = connection is CLOSED
+INFO     - [MainThread|MainProcess] - Loger - client.py:connect_napcat:335 | 连接 napcat websocket 服务器成功!
+DEBUG    - [MainThread|MainProcess] - asyncio - proactor_events.py:__init__:634 | Using proactor: IocpProactor
+INFO     - [MainThread|MainProcess] - Loger - client.py:info_subscribe_message_types:127 | 已订阅消息类型:[群聊]->全部消息类型
+INFO     - [MainThread|MainProcess] - Loger - client.py:info_subscribe_message_types:128 | 已订阅消息类型:[私聊]->全部消息类型
+DEBUG    - [MainThread|MainProcess] - PluginLoader - loader.py:load_plugins:200 | 正在获取插件
+WARNING  - [MainThread|MainProcess] - PluginLoader - loader.py:load_plugins:214 | 插件加载目录: D:\githubRes\gfQQBot\plugins 不存在
+WARNING  - [MainThread|MainProcess] - PluginLoader - loader.py:load_plugins:215 | 请检查工作目录下是否有 `plugins` 文件夹
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:__init__:256 | = connection is CONNECTING
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:114 | > GET /event HTTP/1.1
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Host: localhost:3001
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Key: L+wiHKbC2wrKJGlanqTiEA==
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Version: 13
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Content-Type: application/json
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > User-Agent: Python/3.12 websockets/10.4
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:147 | < HTTP/1.1 101 Switching Protocols
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Sec-WebSocket-Accept: NeLLwL6t1fN2S++z1zOwjZZt/iE=
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_open:357 | = connection is OPEN
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < TEXT '{"time":1742202181,"self_id":3666289634,"post_t...","sub_type":"connect"}' [116 bytes]
+INFO     - [MainThread|MainProcess] - Loger - connect.py:on_message:32 | 机器人 3666289634 成功启动
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < TEXT '{"self_id":3666289634,"user_id":3218866932,"tim..."target_id":3218866932}' [411 bytes]
+DEBUG    - [MainThread|MainProcess] - Loger - client.py:handle_private_event:61 | {'message_id': '246250326', 'user_id': '3218866932', 'message_seq': '246250326', 'real_id': '246250326', 'message_type': 'private', 'sender': "{'user_id': 3218866932, 'nickname': 'Acidbarium', 'card': ''}", 'raw_message': '测试', 'font': '14', 'sub_type': 'friend', 'message': "[{'type': 'text', 'data': {'text': '测试'}}]", 'message_format': 'array', 'target_id': '3218866932'}
+INFO     - [MainThread|MainProcess] - Loger - test.py:on_private_message:24 | {'message_id': '246250326', 'user_id': '3218866932', 'message_seq': '246250326', 'real_id': '246250326', 'message_type': 'private', 'sender': "{'user_id': 3218866932, 'nickname': 'Acidbarium', 'card': ''}", 'raw_message': '测试', 'font': '14', 'sub_type': 'friend', 'message': "[{'type': 'text', 'data': {'text': '测试'}}]", 'message_format': 'array', 'target_id': '3218866932'}
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:__init__:256 | = connection is CONNECTING
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:114 | > GET /api HTTP/1.1
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Host: localhost:3001
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Key: KkodZSE44dYKhEnInerazA==
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Version: 13
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > Content-Type: application/json
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:write_http_request:116 | > User-Agent: Python/3.12 websockets/10.4
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:147 | < HTTP/1.1 101 Switching Protocols
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Upgrade: websocket
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Connection: Upgrade
+DEBUG    - [MainThread|MainProcess] - websockets.client - client.py:read_http_response:149 | < Sec-WebSocket-Accept: ycxCNEM46mbB8pOwSCeAgMnn2F0=
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_open:357 | = connection is OPEN
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_frame_sync:1183 | > TEXT '{"action": "send_private_msg", "params": {"user...]}, "echo": 1742202200}' [177 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < TEXT '{"status":"ok","retcode":0,"data":{"message_id"...":"","echo":1742202200}' [103 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_close_frame:1232 | = connection is CLOSING
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_frame_sync:1183 | > CLOSE 1000 (OK) [2 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < CLOSE 1000 (OK) [2 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_lost:1514 | = connection is CLOSED
+DEBUG    - [MainThread|MainProcess] - Loger - api.py:check_and_log:16 | {'status': 'ok', 'retcode': 0, 'data': {'message_id': 981487719}, 'message': '', 'wording': '', 'echo': 1742202200}
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:keepalive_ping:1270 | % sending keepalive ping
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_frame_sync:1183 | > PING ee 20 ba 33 [binary, 4 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < PONG ee 20 ba 33 [binary, 4 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:keepalive_ping:1280 | % received keepalive pong
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < PONG '' [0 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < TEXT '{"time":1742202209,"self_id":3666289634,"post_t...true},"interval":30000}' [149 bytes]
+DEBUG    - [MainThread|MainProcess] - Loger - connect.py:on_message:34 | {'time': 1742202209, 'self_id': 3666289634, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'status': {'online': True, 'good': True}, 'interval': 30000}
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:keepalive_ping:1270 | % sending keepalive ping
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:write_frame_sync:1183 | > PING 07 29 1d f8 [binary, 4 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < PONG 07 29 1d f8 [binary, 4 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:keepalive_ping:1280 | % received keepalive pong
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:read_frame:1177 | < PONG '' [0 bytes]
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:connection_lost:1514 | = connection is CLOSED
+DEBUG    - [MainThread|MainProcess] - websockets.client - protocol.py:fail_connection:1429 | ! failing connection with code 1006
+INFO     - [MainThread|MainProcess] - Loger - connect.py:on_connect:50 | Websocket connection closed.
