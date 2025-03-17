@@ -1,7 +1,3 @@
-from deepseek import Darling_send_txt
+from ThisIsVV import GetVVNum
 
-txt_ans = Darling_send_txt("早上好啊")
-
-print(txt_ans)
-
-print(txt_ans)
+print(GetVVNum("好"))

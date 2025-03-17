@@ -1,0 +1,9 @@
+03-17 22:20:00 [info] [NapCat] [Core] NapCat.Core Version: 4.7.5
+03-17 22:20:00 [info] [NapCat] [WebUi] WebUi Local Panel Url: http://127.0.0.1:6099/webui?token=napcat
+03-17 22:20:00 [info] 等待网络连接...
+03-17 22:20:01 [info] 网络已连接
+03-17 22:20:01 [info] 正在快速登录  3666289634
+03-17 22:20:03 [debug] 本账号数据/缓存目录： D:\QQdata\Tencent Files\NapCat\data
+03-17 22:20:03 [debug] [Core] [Config] 配置文件D:\githubRes\gfQQBot\napcat\config\napcat_3666289634.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1}
+03-17 22:20:03 [warn] [Core] [Packet] wsPacketClient 未配置服务器地址
+03-17 22:20:03 [info] [Core] [Packet] 自动选择 NativePacketClient 作为后端
