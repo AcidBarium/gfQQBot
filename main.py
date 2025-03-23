@@ -6,6 +6,9 @@ from deepseek import Darling_send_txt
 from ThisIsVV import GetVVNum
 from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot
 import asyncio
+from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
+import random
+
 
 _log = get_log()
 
@@ -20,7 +23,27 @@ bot = BotClient()
 async def on_group_message(msg: GroupMessage):
     _log.info(msg)
     # print("用户id为",msg.user_id)
-    if msg.raw_message[:3] == "喵喵喵":
+    # if msg.raw_message[:5] == "喵喵p图 ":
+    #     msg_text = msg.raw_message[5:]
+    #     pic_url =getLuoLiPicture(msg_text)
+    #     await bot.api.post_group_file(group_id=msg.group_id, image=pic_url)
+    #     print("get daze!")
+    if msg.raw_message[:5] == "喵喵gal":
+        pic_url = RandomgetGalGamePic()
+        await bot.api.post_group_file(group_id=msg.group_id, image=pic_url)
+        print("get daze!")
+    # elif msg.raw_message[:5] == "喵喵vv ":
+    #     msg_text = msg.raw_message[5:]
+    #     ans_num = GetVVNum(msg_text)
+    #     if ans_num != -1:
+    #         ans_img_VV = "./vv/"+str(ans_num)+".png"
+    #         print(ans_img_VV)
+    #         await bot.api.post_group_file(group_id=msg.group_id, image=ans_img_VV )
+    #     else :
+    #         ans_img_VV = "./vv/"+str(random.randint(1,428))+".png"
+    #         print(ans_img_VV)
+    #         await bot.api.post_group_file(group_id=msg.group_id, image=ans_img_VV )
+    elif msg.raw_message[:3] == "喵喵喵":
         # ss = "群号为 :" + str(msg.group_id) 
         # await msg.reply(text = ss )
         # ans_result = Darling_send_txt(msg.raw_message)
@@ -51,7 +74,7 @@ async def on_private_message(msg: PrivateMessage):
     _log.info(msg)
     if msg.user_id ==3218866932 :
         
-        ans_result = Darling_send_txt_Remote(msg.raw_message)
+        ans_result = Darling_send_txt_Remot_Plus(msg.raw_message)
         await bot.api.post_private_msg(msg.user_id, text = ans_result) 
     else:
         await bot.api.post_private_msg(msg.user_id, text="Barium告诉我不能和陌生人说话喵~")  # id为发送者的QQ号码

@@ -46,3 +46,18 @@ def Demo_send_txt_Remot(prompt):
     )
     
     return response.choices[0].message.content
+
+def tell_is_bad_email(prompt):
+    client = OpenAI(api_key="sk-vqzfqjjlrsqpcwuixkxpykxucaswkexsgftgiusjsivorfpe", base_url="https://api.siliconflow.cn/v1")
+    response = client.chat.completions.create(
+        model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',
+        messages=[
+            {"role": "system", "content": "你需要检测下面的邮件是否为垃圾信息，比如是否含有诱导信息，是否含有虚假信息，请返回信息可能是垃圾信息的概率，例如：0.11.（注意只需返回数字，不需要说别的话）"},
+            {"role": "user", "content": prompt}
+        ],
+        stream=False,
+        temperature=0.1,  
+        max_tokens= 512  
+    )
+    
+    return response.choices[0].message.content
