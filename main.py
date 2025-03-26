@@ -2,14 +2,13 @@ from ncatbot.core import BotClient
 from ncatbot.core.message import GroupMessage, PrivateMessage
 from ncatbot.utils.config import config
 from ncatbot.utils.logger import get_log
-from deepseek import Darling_send_txt
+# from deepseek import Darling_send_txt
 from ThisIsVV import GetVVNum
 from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot
 import asyncio
 from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
-from DUTfileSender import sendTest
 import random
-import re
+from dutGetFile import getRoot,getSonDir,get_gut_file,get_rand_file_to_study,get_gut_file_line_head,search_matches
 
 
 _log = get_log()
@@ -34,6 +33,38 @@ async def on_group_message(msg: GroupMessage):
         pic_url = RandomgetGalGamePic()
         await bot.api.post_group_file(group_id=msg.group_id, image=pic_url)
         print("get daze!")
+    elif msg.raw_message == "喵喵home":
+        str_root = getRoot()
+        await bot.api.post_group_file(group_id = msg.group_id ,file = str_root)
+        print(str_root)
+    elif msg.raw_message[:5] == "喵喵ls ":
+        str_dir_num = msg.raw_message[5:]
+        str_dir = getSonDir(str_dir_num)
+        if str_dir =="404":
+            await msg.reply(text = "404 NOT FOUND")
+        else:
+            await bot.api.post_group_file(group_id = msg.group_id ,file = str_dir)
+        print(str_dir)
+    elif msg.raw_message[:6] == "喵喵apt ":
+        str_download_num = msg.raw_message[6:]
+        str_download = get_gut_file(str_download_num)
+        if str_download == "404":
+            await msg.reply(text = "404 NOT FOUND")
+        else:
+            await bot.api.post_group_file(group_id = msg.group_id ,file = str_download)
+        print(str_download)
+    elif msg.raw_message== "喵喵学习random":
+        str_rand_study = get_rand_file_to_study()
+        await bot.api.post_group_file(group_id = msg.group_id ,file = str_rand_study)
+    elif msg.raw_message[:7]== "喵喵head ":
+        str_head_num = msg.raw_message[7:]
+        str_head = get_gut_file_line_head(str_head_num)
+        await msg.reply(text = str_head)
+    elif msg.raw_message[:9]== "喵喵search ":
+        str_search_num = msg.raw_message[9:]
+        str_search = search_matches(str_search_num)
+        await msg.reply(text = str_search)
+        
     # elif msg.raw_message[:5] == "喵喵vv ":
     #     msg_text = msg.raw_message[5:]
     #     ans_num = GetVVNum(msg_text)
@@ -45,12 +76,6 @@ async def on_group_message(msg: GroupMessage):
     #         ans_img_VV = "./vv/"+str(random.randint(1,428))+".png"
     #         print(ans_img_VV)
     #         await bot.api.post_group_file(group_id=msg.group_id, image=ans_img_VV )
-    elif msg.raw_message[:4] == "喵喵马原":
-        numbers = msg.raw_message[4:]
-        str_dut = sendTest(numbers)
-        await bot.api.post_group_file(group_id = msg.group_id ,file = str_dut)
-        print(str_dut)
-        
     elif msg.raw_message[:3] == "喵喵喵":
         # ss = "群号为 :" + str(msg.group_id) 
         # await msg.reply(text = ss )
