@@ -1,8 +1,12 @@
 
 
-# GFqqBot
+# gfQQBot
 
 基于ncatbot写的一个qq机器人，能像猫娘一样说话，能给你发表情包，能帮你整理资料
+
+项目起源说明:[硫酸铜妹妹的诞生日记](https://acidbarium.github.io/posts/acidcopper)
+
+项目操作说明:[还在写QAQ]()
 
 <!-- PROJECT SHIELDS -->
 
@@ -21,20 +25,17 @@
   <img src="img/logo.png" alt="Logo" width="80" height="80">
 </a>
 
+<h3 align="center">gfQQBot</h3>
+<p align="center" style="line-height: 1.5; font-size: 16px;">
+  <strong>梦中情人</strong>
+  <br />
+  <a href="https://github.com/AcidBarium/gfQQBot">查看Demo</a>
+  ·
+  <a href="https://github.com/AcidBarium/gfQQBot/issues">报告Bug</a>
+  ·
+  <a href="https://github.com/AcidBarium/gfQQBot/issues">提出新特性</a>
+</p>
 
-  <h3 align="center">GFqqBot</h3>
-  <p align="center">
-    梦中情人
-    <br />
-    <a href="https://github.com/AcidBarium/gfQQBot"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/AcidBarium/gfQQBot">查看Demo</a>
-    ·
-    <a href="https://github.com/AcidBarium/gfQQBot/issues">报告Bug</a>
-    ·
-    <a href="https://github.com/AcidBarium/gfQQBot/issues">提出新特性</a>
-  </p>
 
 </p>
 
