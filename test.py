@@ -6,15 +6,15 @@
 
 # print(ans_result)
 
-from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
+# from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
 
-input_string = "猫娘"
+# input_string = "猫娘"
 
-str_result = getLuoLiPicture(input_string) 
+# str_result = getLuoLiPicture(input_string) 
 
-# str_result = RandomgetGalGamePic()
+# # str_result = RandomgetGalGamePic()
 
-print(str_result)
+# print(str_result)
 
 # from deepseekRemote import tell_is_bad_email
 
@@ -23,3 +23,10 @@ print(str_result)
 # ans_result =tell_is_bad_email(bad_emai)
 
 # print(ans_result)
+
+
+from DUTfileSender import sendTest
+
+
+str = sendTest(1)
+print(str)

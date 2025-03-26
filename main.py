@@ -7,7 +7,9 @@ from ThisIsVV import GetVVNum
 from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot
 import asyncio
 from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
+from DUTfileSender import sendTest
 import random
+import re
 
 
 _log = get_log()
@@ -43,6 +45,12 @@ async def on_group_message(msg: GroupMessage):
     #         ans_img_VV = "./vv/"+str(random.randint(1,428))+".png"
     #         print(ans_img_VV)
     #         await bot.api.post_group_file(group_id=msg.group_id, image=ans_img_VV )
+    elif msg.raw_message[:4] == "喵喵马原":
+        numbers = msg.raw_message[4:]
+        str_dut = sendTest(numbers)
+        await bot.api.post_group_file(group_id = msg.group_id ,file = str_dut)
+        print(str_dut)
+        
     elif msg.raw_message[:3] == "喵喵喵":
         # ss = "群号为 :" + str(msg.group_id) 
         # await msg.reply(text = ss )
