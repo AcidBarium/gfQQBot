@@ -56,22 +56,27 @@
 
 ### 上手指南
 
-请将所有链接中的“AcidBarium/gfQQBot”改为“your_github_name/your_repository”
-
-
 
 ###### 开发前的配置要求
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
+1. python = 3.12
+2. openai
+3. requests
+4. NcatBot
+5. rapidfuzz
 
 ###### **安装步骤**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+代码下载
 
 ```sh
 git clone https://github.com/AcidBarium/gfQQBot.git
+```
+
+环境配置
+
+```sh
+pip install requests openai ncatbot rapidfuzz
 ```
 
 ### 文件目录说明
@@ -79,45 +84,43 @@ eg:
 
 ```
 filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+├── DUT
+│   ├── A_sonDir
+│   │   ├── xxxxxx(索引)
+│   │   ├── xxxxxx(索引)
+│   ├── main.py
+│   ├── rootDir.txt
+│   ├── total.txt
+├── img
+├── vv
+│   ├── vv1.jpg
+│   ├── xxx.jpg
+├── deepseek.py
+├── deepseekRemote.py
+├── dutGetFile.py
+├── LICENSE
+├── LuoLiPicture.py
+├── main.py
+├── readme.md
+└── ThisIsVV.py
 
 ```
 
 
-
-
-
 ### 开发的架构 
 
-请阅读[ARCHITECTURE.md](https://github.com/AcidBarium/gfQQBot/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+使用的是[ncatbot](https://github.com/liyihao1110/ncatbot),是[napcat](https://github.com/NapNeko/NapCatQQ)的近亲
 
 ### 部署
 
-暂无
+ncatbot的部署请参考[ncatbot仓库](https://github.com/liyihao1110/ncatbot)和他们的[开发手册](https://docs.ncatbot.xyz/)
 
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
 
 ### 贡献者
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
+<a href="https://github.com/AcidBarium/GeneCardsWebScraper/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AcidBarium/gfQQBot" />
+</a>
 
 #### 如何参与开源项目
 
@@ -138,11 +141,10 @@ filetree
 
 ### 作者
 
-xxx@xxxx
+Acidbarium
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+联系方式：acidbarium@163.com  
 
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
 ### 版权说明
 
@@ -150,13 +152,10 @@ xxx@xxxx
 
 ### 鸣谢
 
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
+- [ncatbot](https://github.com/liyihao1110/ncatbot)
+- [bestreadme](https://github.com/shaojintian/Best_README_template)
+- [naosi](https://github.com/NAOSI-DLUT)
+- 群友
 
 <!-- links -->
 [your-project-path]:AcidBarium/gfQQBot
