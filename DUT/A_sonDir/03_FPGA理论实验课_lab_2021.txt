@@ -1,0 +1,30 @@
+FPGA理论实验课_lab_2021: 03
+03001: FPGA理论实验课_lab_2021/实验1/实验1实验报告.docx
+03002: FPGA理论实验课_lab_2021/实验3/实验3实验报告.docx
+03003: FPGA理论实验课_lab_2021/资料/PYNQ-Z2 v1.0.tcl
+03004: FPGA理论实验课_lab_2021/资料/PYNQ-Z2 v1.0.xdc
+03005: FPGA理论实验课_lab_2021/资料/README.txt
+03006: FPGA理论实验课_lab_2021/资料/TUL_PYNQ_Schematic_R12.pdf
+03007: FPGA理论实验课_lab_2021/资料/pynq-z2.zip
+03008: FPGA理论实验课_lab_2021/资料/pynqz2_user_manual_v1_0.pdf
+03009: FPGA理论实验课_lab_2021/实验2/实验2实验报告.docx
+03010: FPGA理论实验课_lab_2021/实验2/template/display.v
+03011: FPGA理论实验课_lab_2021/实验2/template/display_tb.v
+03012: FPGA理论实验课_lab_2021/实验2/template/divider.v
+03013: FPGA理论实验课_lab_2021/实验2/template/divider_tb.v
+03014: FPGA理论实验课_lab_2021/实验2/template/key.v
+03015: FPGA理论实验课_lab_2021/实验2/template/leapyear.v
+03016: FPGA理论实验课_lab_2021/实验2/template/leapyear_tb.v
+03017: FPGA理论实验课_lab_2021/实验2/template/rtc.v
+03018: FPGA理论实验课_lab_2021/实验2/template/rtc_tb.v
+03019: FPGA理论实验课_lab_2021/实验2/template/rtc_top.v
+03020: FPGA理论实验课_lab_2021/实验5/实验5实验报告.docx
+03021: FPGA理论实验课_lab_2021/实验5/template/uart/control.v
+03022: FPGA理论实验课_lab_2021/实验5/template/uart/uart_clk_gen.v
+03023: FPGA理论实验课_lab_2021/实验5/template/uart/uart_rx.v
+03024: FPGA理论实验课_lab_2021/实验5/template/uart/uart_top.v
+03025: FPGA理论实验课_lab_2021/实验5/template/uart/uart_tx.v
+03026: FPGA理论实验课_lab_2021/实验5/template/crc/crc.v
+03027: FPGA理论实验课_lab_2021/实验5/template/crc/crc_tb.v
+03028: FPGA理论实验课_lab_2021/实验5/template/crc/lfsr.v
+03029: FPGA理论实验课_lab_2021/实验4/实验4实验报告.docx

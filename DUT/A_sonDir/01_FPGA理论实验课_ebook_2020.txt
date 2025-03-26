@@ -1,0 +1,10 @@
+FPGA理论实验课_ebook_2020: 01
+01001: FPGA理论实验课_ebook_2020/3.FPGA异步电路处理方法.pdf
+01002: FPGA理论实验课_ebook_2020/4.FPGA时序约束方法.pdf
+01003: FPGA理论实验课_ebook_2020/5.FPGA时序优化方法.pdf
+01004: FPGA理论实验课_ebook_2020/FPGA入门教程.pdf
+01005: FPGA理论实验课_ebook_2020/FSM状态机.pdf
+01006: FPGA理论实验课_ebook_2020/VerilogHDL扫盲文.pdf
+01007: FPGA理论实验课_ebook_2020/Verilog书写规范（华为）.pdf
+01008: FPGA理论实验课_ebook_2020/Verilog语法极简手册.pdf
+01009: FPGA理论实验课_ebook_2020/理解亚稳定性.pdf

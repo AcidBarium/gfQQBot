@@ -1,0 +1,23 @@
+操作系统_ppt_2023_胡燕: 25
+25001: 操作系统_ppt_2023_胡燕/L01-OS-offline-OS概念-v1-r5_20240229 .pdf
+25002: 操作系统_ppt_2023_胡燕/L02-OS-offline-OS结构-v1-r6_20240307.pdf
+25003: 操作系统_ppt_2023_胡燕/L03-OS-offline-进程概念-v1-r5_2024034.pdf
+25004: 操作系统_ppt_2023_胡燕/L04-OS-offline-进程调度基础与IPC-v1-r4_20240321.pdf
+25005: 操作系统_ppt_2023_胡燕/L05-OS-offline-线程-v1-r6_20240328.pdf
+25006: 操作系统_ppt_2023_胡燕/L06-OS-offline-CPU调度算法1-v1-r3_20240411.pdf
+25007: 操作系统_ppt_2023_胡燕/L07-OS-offline-CPU调度算法2-v1-r3_20240418.pdf
+25008: 操作系统_ppt_2023_胡燕/L08-OS-offline-进程同步1-v1-r3_20240423.pdf
+25009: 操作系统_ppt_2023_胡燕/L09-OS-offline-进程同步2-v1-r3_20240225.pdf
+25010: 操作系统_ppt_2023_胡燕/L10-OS-offline-进程同步3-v1-r3_20240228.pdf
+25011: 操作系统_ppt_2023_胡燕/L11-OS-offline-死锁1-v1-r2_20240430.pdf
+25012: 操作系统_ppt_2023_胡燕/L12-OS-offline-死锁2-v1-r4_20240507.pdf
+25013: 操作系统_ppt_2023_胡燕/L13-OS-offline-主存-part1-v1-r4-20240509.pdf
+25014: 操作系统_ppt_2023_胡燕/L14-OS-offline-主存-part2-v1-r5_20240514.pdf
+25015: 操作系统_ppt_2023_胡燕/L15-OS-offline-虚存-part1-v1-r7_20240516.pdf
+25016: 操作系统_ppt_2023_胡燕/L16-OS-offline-虚存-part2-v1-r4_20240521.pdf
+25017: 操作系统_ppt_2023_胡燕/L17-OS-offline-进程和内存习题讲解-v1-r6_20240523.pdf
+25018: 操作系统_ppt_2023_胡燕/L18-OS-offline-文件系统接口-v1-r4_20240528.pdf
+25019: 操作系统_ppt_2023_胡燕/L19-OS-offline-文件系统实现-part1-v1-r4_20240530.pdf
+25020: 操作系统_ppt_2023_胡燕/L21-OS-offline-大容量存储-v1-r2_20240606.pdf
+25021: 操作系统_ppt_2023_胡燕/L23-OS-offline-IO子系统-part2-v1-r3_20240611.pdf
+25022: 操作系统_ppt_2023_胡燕/L24-OS-offline-OS复习-v1-r2_20240613.pdf

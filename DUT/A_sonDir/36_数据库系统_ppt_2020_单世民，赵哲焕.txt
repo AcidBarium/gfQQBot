@@ -1,0 +1,15 @@
+数据库系统_ppt_2020_单世民，赵哲焕: 36
+36001: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第一章-Introduction-下载版.pdf
+36002: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第七章-Query Processing and Query optimization.pdf
+36003: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第三章(3.3-3.4)-Introducation to SQL.pdf
+36004: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第三章(3.5-3.8)-Introducation to SQL.pdf
+36005: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第三章(3.9-3.11)-Introducation to SQL-final.pdf
+36006: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第三章-Introducation to SQL-持续更新版.pdf
+36007: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第九章-Recovery System.pdf
+36008: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第二章-Relational Data Model-下载版.pdf
+36009: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第五章(5.1-5.2)-Database Design and the E-R Model.pdf
+36010: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第五章(5.3-5.5)-Database Design and the E-R Model.pdf
+36011: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第八章-Transactions.pdf
+36012: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第六章-Relational Database Design.pdf
+36013: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第十章-Concurrency control.pdf
+36014: 数据库系统_ppt_2020_单世民，赵哲焕/[PDS]-第四章(4.1-4.2)-Formal Query Language-Relational Algebra.pdf

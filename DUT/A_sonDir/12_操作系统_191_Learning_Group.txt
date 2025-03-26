@@ -1,0 +1,28 @@
+操作系统_191_Learning_Group: 12
+12001: 操作系统_191_Learning_Group/2020年操作系统原题参考解答_compressed.pdf
+12002: 操作系统_191_Learning_Group/2020年操作系统期末考试参考答案（软件191级队自编）.pdf
+12003: 操作系统_191_Learning_Group/2020期末考试-操作系统试卷(线上)-A - r4.pdf
+12004: 操作系统_191_Learning_Group/《操作系统复习：面向姜沛峰的作业》.zip
+12005: 操作系统_191_Learning_Group/《面试指南 For 操作系统》(chapter 1).pdf
+12006: 操作系统_191_Learning_Group/【挂科学长抄出来的真题】操作系统_2015_软件学院(1).pdf
+12007: 操作系统_191_Learning_Group/操作系统2017.zip
+12008: 操作系统_191_Learning_Group/操作系统去年学长抄出真题.pdf
+12009: 操作系统_191_Learning_Group/操作系统第1次作业(1).docx
+12010: 操作系统_191_Learning_Group/操作系统第2次作业题目.docx
+12011: 操作系统_191_Learning_Group/操作系统第一章.pptx
+12012: 操作系统_191_Learning_Group/操作系统第三章.pptx
+12013: 操作系统_191_Learning_Group/操作系统第二章总结.pptx
+12014: 操作系统_191_Learning_Group/操作系统纲要：第一章 操作系统概述.pdf
+12015: 操作系统_191_Learning_Group/操作系统随笔.pdf
+12016: 操作系统_191_Learning_Group/第6-7章练习题(1).docx
+12017: 操作系统_191_Learning_Group/第五次作业答案.docx
+12018: 操作系统_191_Learning_Group/第四次作业 2.docx
+12019: 操作系统_191_Learning_Group/第四次作业答案.docx
+12020: 操作系统_191_Learning_Group/软191思维导图系列12——线程概念（操作系统4.1）.imx.jpg
+12021: 操作系统_191_Learning_Group/软191思维导图系列13——线程模型（操作系统4.2）.imx.jpg
+12022: 操作系统_191_Learning_Group/软191思维导图系列3——操作系统服务（上）（操作系统2.1）.jpg.imx.jpg
+12023: 操作系统_191_Learning_Group/软191思维导图系列4——操作系统服务（下）（操作系统2.1）.imx.jpg
+12024: 操作系统_191_Learning_Group/软191思维导图系列5——系统调用（操作系统2.2）.imx.jpg
+12025: 操作系统_191_Learning_Group/软191思维导图系列6——操作系统结构（操作系统2.3）.imx.jpg
+12026: 操作系统_191_Learning_Group/软191思维导图系列7——Linux系统调用（操作系统2.4）.imx.jpg
+12027: 操作系统_191_Learning_Group/软191思维导图系列8——进程的概念（操作系统3.1）.imx.jpg

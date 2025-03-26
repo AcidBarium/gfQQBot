@@ -1,0 +1,10 @@
+FPGA理论实验课_ppt_2020: 04
+04001: FPGA理论实验课_ppt_2020/2020_(2)CPLD和FPGA介绍.pdf
+04002: FPGA理论实验课_ppt_2020/2020_(3)Xilinx Vivado软件入门.pdf
+04003: FPGA理论实验课_ppt_2020/2020_(4)Verilog HDL基础1.pdf
+04004: FPGA理论实验课_ppt_2020/2020_(5)Verilog HDL基础2.pdf
+04005: FPGA理论实验课_ppt_2020/2020_(6)ModelSim介绍.pdf
+04006: FPGA理论实验课_ppt_2020/2020_(7)Xilinx Chipscope Pro.pdf
+04007: FPGA理论实验课_ppt_2020/2020_(8)Xilinx ZYNQ嵌入式开发.pdf
+04008: FPGA理论实验课_ppt_2020/2021_(1)FPGA原理绪论.pdf
+04009: FPGA理论实验课_ppt_2020/2021_(9)Xilinx ZYNQ嵌入式开发.pdf
