@@ -22,7 +22,7 @@
 <p align="center">
 
 <a href="https://github.com/AcidBarium/gfQQBot/">
-  <img src="img/logo.png" alt="Logo" width="80" height="80">
+  <img src="img/logo.png" alt="Logo" width="120" height="120">
 </a>
 
 <h3 align="center">gfQQBot</h3>
