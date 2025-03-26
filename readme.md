@@ -55,6 +55,7 @@
 - [版本控制](#版本控制)
 - [作者](#作者)
 - [鸣谢](#鸣谢)
+- [TODO List](#todo-list-)
 
 ### 功能一览
 
@@ -179,6 +180,20 @@ Acidbarium
 - [kungal](https://sticker.kungal.com/)
 - 群友
 - chatGPT
+
+### TODO List ✅
+
+
+- [ ] 限制p站作者id，得到好看健康的图片
+- [ ] 使用数据库优化资料存储
+- [ ] 优化模糊搜索功能
+- [ ] 接入纯血deepseek
+- [ ] 使用消息队列来完成联系上下文
+- [ ] 增加喵喵概率说话功能
+- [ ] 改进 Bot 的响应速度  
+- [ ] 增加更多有趣的对话功能 
+- [ ] 撰写更详细的使用文档  
+
 
 <!-- links -->
 [your-project-path]:AcidBarium/gfQQBot
