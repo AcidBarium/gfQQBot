@@ -42,6 +42,7 @@
  
 ## 目录
 
+- [功能一览](#功能一览)
 - [上手指南](#上手指南)
   - [开发前的配置要求](#开发前的配置要求)
   - [安装步骤](#安装步骤)
@@ -54,6 +55,20 @@
 - [版本控制](#版本控制)
 - [作者](#作者)
 - [鸣谢](#鸣谢)
+
+### 功能一览
+
+- 喵喵 接入一个32B的deepseek模型，完成一些猫娘对话
+- 喵喵喵 接入一个7B的deepseek模型，完成一些简单的猫娘对话
+  - 上述两个功能可以根据不同的用户选择是否使用刻薄猫娘
+- 喵喵gal，从https://sticker.kungal.com 抽取一张gal表情包
+- 喵喵学习功能
+  - 喵喵home：返回大连理工大学大二下naosi课程资料根目录列表（以txt形式返回）
+  - 喵喵ls [num] ：返回大连理工大学大二下naosi课程资料二级目录下的文件列表（以txt形式返回）
+  - 喵喵head [num] ：查询以num开始的10个文件的名字
+  - 喵喵search [file] ：查询相关文件及其位置
+  - 喵喵apt [num] :下载num代表的文件
+
 
 ### 上手指南
 
@@ -155,6 +170,7 @@ Acidbarium
 - [ncatbot](https://github.com/liyihao1110/ncatbot)
 - [bestreadme](https://github.com/shaojintian/Best_README_template)
 - [naosi](https://github.com/NAOSI-DLUT)
+- [kungal](https://sticker.kungal.com/)
 - 群友
 - chatGPT
 
