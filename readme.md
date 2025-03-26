@@ -157,6 +157,7 @@ Acidbarium
 - [bestreadme](https://github.com/shaojintian/Best_README_template)
 - [naosi](https://github.com/NAOSI-DLUT)
 - 群友
+- chatGPT
 
 <!-- links -->
 [your-project-path]:AcidBarium/gfQQBot
