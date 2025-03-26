@@ -81,7 +81,6 @@ pip install requests openai ncatbot rapidfuzz
 ```
 
 ### 文件目录说明
-eg:
 
 ```
 filetree 
