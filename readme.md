@@ -149,7 +149,7 @@ Acidbarium
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/AcidBarium/gfQQBot/blob/master/LICENSE)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/AcidBarium/gfQQBot/blob/master/LICENSE)
 
 ### 鸣谢
 
