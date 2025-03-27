@@ -1,7 +1,7 @@
 from openai import OpenAI
 
-def Darling_send_txt_Remote(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1")   ##硅基流动的api
+def Darling_send_txt_Remote(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey , base_url= u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',
         messages=[
@@ -16,8 +16,8 @@ def Darling_send_txt_Remote(prompt):
     return response.choices[0].message.content
 
 
-def Darling_send_txt_Remot_Plus(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1") ##硅基流动的api
+def Darling_send_txt_Remot_Plus(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey, base_url = u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-32B',
         messages=[
@@ -32,8 +32,8 @@ def Darling_send_txt_Remot_Plus(prompt):
     return response.choices[0].message.content
 
 
-def Demo_send_txt_Remot(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1") ##硅基流动的api
+def Demo_send_txt_Remot(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey , base_url = u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',
         messages=[

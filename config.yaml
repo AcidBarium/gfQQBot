@@ -1,0 +1,19 @@
+bot:
+  name: "gfBot"
+  version: "1.0"
+
+deepseek:
+  base_url : "https://api.siliconflow.cn/v1"
+  api_key : "sk-vqzfqjjlrsqpcwuixkxpykxucaswkexsgftgiusjsivorfpe"
+
+
+QQ_ID :
+  up_id : "3666289634"
+  good_id : 3218866932
+  bad_id : 242986350
+
+function :
+  mmPic : false
+  mmgal : true
+  mmStudy : true
+  mmSpeak : true
