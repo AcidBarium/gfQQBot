@@ -112,21 +112,23 @@ filetree
 │   ├── A_sonDir
 │   │   ├── xxxxxx(索引)
 │   │   ├── xxxxxx(索引)
-│   ├── main.py
-│   ├── rootDir.txt
-│   ├── total.txt
+│   ├── main.py(用来给文件编写索引)
+│   ├── rootDir.txt(根索引文件)
+│   ├── total.txt(总索引文件)
 ├── img
 ├── vv
-│   ├── vv1.jpg
+│   ├── vv1.jpg (vv表情包)
 │   ├── xxx.jpg
-├── deepseek.py
-├── deepseekRemote.py
-├── dutGetFile.py
+│   ├── rename_log.txt (vv表情包索引)
+├── deepseek.py (本地ds)
+├── deepseekRemote.py (硅基ds)
+├── dutGetFile.py (喵喵学习功能)
 ├── LICENSE
-├── LuoLiPicture.py
-├── main.py
+├── LuoLiPicture.py (包含喵喵p图和喵喵gal)
+├── main.py (机器人主控程序)
 ├── readme.md
-└── ThisIsVV.py
+├── mmHelp.py (喵喵help)
+└── ThisIsVV.py (喵喵vv)
 
 ```
 
