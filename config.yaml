@@ -2,18 +2,21 @@ bot:
   name: "gfBot"
   version: "1.0"
 
+# ds_api
 deepseek:
   base_url : "https://api.siliconflow.cn/v1"
-  api_key : "sk-vqzfqjjlrsqpcwuixkxpykxucaswkexsgftgiusjsivorfpe"
+  api_key : ""
 
-
+# QQ号，upid为机器人的，good是你的，bad是刻薄猫娘
 QQ_ID :
-  up_id : "3666289634"
-  good_id : 3218866932
-  bad_id : 242986350
+  up_id : ""
+  good_id : 
+  bad_id : 
+
+
 
 function :
-  mmPic : false
-  mmgal : true
-  mmStudy : true
-  mmSpeak : true
+  mmPic : false   #喵喵p图
+  mmgal : true    #喵喵gal 
+  mmStudy : true  #喵喵学习
+  mmSpeak : true  #喵喵聊天
