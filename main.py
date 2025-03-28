@@ -4,7 +4,7 @@ from ncatbot.utils.config import config
 from ncatbot.utils.logger import get_log
 # from deepseek import Darling_send_txt
 from ThisIsVV import GetVVNum
-from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot
+from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot,DarlingChat
 import asyncio
 from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
 import random
@@ -24,6 +24,8 @@ config.set_ws_uri("ws://localhost:3001")  # 设置 napcat websocket server 地�
 config.set_token("") # 设置 token (napcat 服务器的 token)
 
 bot = BotClient()
+
+darlingCat = DarlingChat(gfBOTconfig["deepseek"]["base_url"],gfBOTconfig["deepseek"]["api_key"])
 
 
 @bot.group_event()
@@ -96,9 +98,9 @@ async def on_group_message(msg: GroupMessage):
 async def on_private_message(msg: PrivateMessage):
     _log.info(msg)
     if msg.user_id == gfBOTconfig["QQ_ID"]["good_id"] :
-        
-        ans_result = Darling_send_txt_Remot_Plus(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
-        await bot.api.post_private_msg(msg.user_id, text = ans_result) 
+        ans_result_darling_acidbarium = darlingCat.send_message(str(gfBOTconfig["QQ_ID"]["good_id"]),msg.raw_message) 
+        # ans_result = Darling_send_txt_Remot_Plus(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
+        await bot.api.post_private_msg(msg.user_id, text = ans_result_darling_acidbarium) 
     else:
         await bot.api.post_private_msg(msg.user_id, text="Barium告诉我不能和陌生人说话喵~")  # id为发送者的QQ号码
 
