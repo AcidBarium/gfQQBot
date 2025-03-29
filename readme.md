@@ -6,7 +6,7 @@
 
 项目起源说明:[硫酸铜妹妹的诞生日记](https://acidbarium.github.io/posts/acidcopper)
 
-项目操作说明:[还在写QAQ]()
+项目操作说明:[硫酸铜妹妹的开发手册](https://acidbarium.github.io/posts/acidcopperDev)
 
 <!-- PROJECT SHIELDS -->
 
@@ -63,10 +63,10 @@
   - 喵喵：接入一个32B的deepseek模型，完成一些猫娘对话
   - 喵喵喵：接入一个7B的deepseek模型，完成一些简单的猫娘对话
   - 上述两个功能可以根据不同的用户选择是否使用刻薄猫娘
-  - 可以指定私聊用户，对于未选择的用户会返回“不能和陌生人说话”
+  - 可以指定私聊用户，对于未选择的用户会返回“不能和陌生人说话”，私聊可以支持联系上下文。
 - 喵喵娱乐功能
   - 喵喵gal：从https://sticker.kungal.com 抽取一张gal表情包
-  - 喵喵p图：从pixiv上搜索一张相关的照片，使用了[lolicon api](https://api.lolicon.app/#/setu)(但是有概率出不良图片所以正式版关了)
+  - 喵喵p图 [name]：从pixiv上搜索一张相关的照片，使用了[lolicon api](https://api.lolicon.app/#/setu),name可以是random
   - 喵喵vv：创意来自[同学](https://github.com/markzhang12345/vvBot)，由于班门弄斧以及不太像猫娘所以正式版也关了
 - 喵喵学习功能
   - 喵喵home：返回大连理工大学大二下naosi课程资料根目录列表（以txt形式返回）
@@ -141,6 +141,9 @@ filetree
 
 ncatbot的部署请参考[ncatbot仓库](https://github.com/liyihao1110/ncatbot)和他们的[开发手册](https://docs.ncatbot.xyz/)
 
+### 启动说明
+
+请参考[硫酸铜妹妹的开发手册](https://acidbarium.github.io/posts/acidcopperDev)
 
 ### 贡献者
 
